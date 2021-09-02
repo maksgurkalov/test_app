@@ -11,19 +11,17 @@ class AccountVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        initialize()
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
+        private func initialize() {
+            view.backgroundColor = UIColor(red: 0.898, green: 0.898, blue: 0.898, alpha: 1)
+            self.title = "Аккаунт"
+            self.navigationItem.title = "Аккаунт"
+            
+            var tabBarItem = UITabBarItem()
+            tabBarItem = UITabBarItem(title: "Аккаунт", image: UIImage(named: "union"), tag: 1)
+            
+            self.tabBarItem = tabBarItem
+}
 }

@@ -11,9 +11,31 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
+    var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        //        window.self = UIWindow(frame: UIScreen.main.bounds)
+//        let mainVC = ViewController()
+//        
+//        let authVC = AuthorizationVC()
+//        
+//        let accountVC = AccountVC()
+//        
+//        let moreVC = MoreVC()
+//        
+//        // navigation
+//        let navMainVC = UINavigationController(rootViewController: mainVC)
+//        let navAuthVC = UINavigationController(rootViewController: authVC)
+//        let navAccountVC = UINavigationController(rootViewController: accountVC)
+//        let navMoreVC = UINavigationController(rootViewController: moreVC)
+//        
+//        let tabBarVC = UITabBarController()
+//        tabBarVC.setViewControllers([navMainVC, navAuthVC, navMoreVC], animated: true)
+//        
+//        self.window?.rootViewController = tabBarVC
+//        self.window?.makeKeyAndVisible()
+        
         return true
     }
 

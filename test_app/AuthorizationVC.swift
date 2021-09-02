@@ -6,13 +6,19 @@
 //
 
 import UIKit
+import SnapKit
 
 class AuthorizationVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        initialize()
+    }
+    
+    private func initialize () {
+        view.backgroundColor = .black
+        
+        
     }
     
 
