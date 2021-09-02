@@ -10,6 +10,7 @@
 		2D0207C626DF868500E756B0 /* AuthorizationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D0207C526DF868500E756B0 /* AuthorizationVC.swift */; };
 		2D0207C826DF991E00E756B0 /* AccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D0207C726DF991E00E756B0 /* AccountVC.swift */; };
 		2D0207CA26DF994E00E756B0 /* MoreVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D0207C926DF994E00E756B0 /* MoreVC.swift */; };
+		2D0207CC26E12F7C00E756B0 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D0207CB26E12F7C00E756B0 /* TabBar.swift */; };
 		2D150BFB26DE2AC300F7DF0E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D150BFA26DE2AC300F7DF0E /* AppDelegate.swift */; };
 		2D150BFD26DE2AC300F7DF0E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D150BFC26DE2AC300F7DF0E /* SceneDelegate.swift */; };
 		2D150BFF26DE2AC300F7DF0E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D150BFE26DE2AC300F7DF0E /* ViewController.swift */; };
@@ -44,6 +45,7 @@
 		2D0207C526DF868500E756B0 /* AuthorizationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationVC.swift; sourceTree = "<group>"; };
 		2D0207C726DF991E00E756B0 /* AccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountVC.swift; sourceTree = "<group>"; };
 		2D0207C926DF994E00E756B0 /* MoreVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreVC.swift; sourceTree = "<group>"; };
+		2D0207CB26E12F7C00E756B0 /* TabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 		2D150BF726DE2AC300F7DF0E /* test_app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test_app.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D150BFA26DE2AC300F7DF0E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2D150BFC26DE2AC300F7DF0E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -125,6 +127,7 @@
 				2D150BFE26DE2AC300F7DF0E /* ViewController.swift */,
 				2D0207C726DF991E00E756B0 /* AccountVC.swift */,
 				2D0207C926DF994E00E756B0 /* MoreVC.swift */,
+				2D0207CB26E12F7C00E756B0 /* TabBar.swift */,
 				2D0207C526DF868500E756B0 /* AuthorizationVC.swift */,
 				2D150C0326DE2AC700F7DF0E /* Assets.xcassets */,
 				2D150C0526DE2AC700F7DF0E /* LaunchScreen.storyboard */,
@@ -417,6 +420,7 @@
 				2D150BFB26DE2AC300F7DF0E /* AppDelegate.swift in Sources */,
 				2D0207C626DF868500E756B0 /* AuthorizationVC.swift in Sources */,
 				2D150BFD26DE2AC300F7DF0E /* SceneDelegate.swift in Sources */,
+				2D0207CC26E12F7C00E756B0 /* TabBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

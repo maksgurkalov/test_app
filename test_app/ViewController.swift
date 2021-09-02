@@ -20,6 +20,10 @@ class ViewController: UIViewController, UITabBarControllerDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+//        var tabBarItem = UITabBarItem()
+//        tabBarItem = UITabBarItem(title: "Главная", image: UIImage(named: "iconCard"), tag: 0)
+//        self.tabBarItem = tabBarItem
+//        tabBarItem = UITabBarItem(title: "Аккаунт", image: UIImage(named: "union"), tag: 1)
         initialize()
         self.tabBarController?.delegate = self
     }
@@ -75,10 +79,10 @@ class ViewController: UIViewController, UITabBarControllerDelegate {
             maker.right.equalToSuperview().inset(16)
         }
         
-        var tabBarItem = UITabBarItem()
-        tabBarItem = UITabBarItem(title: "Главная", image: UIImage(named: "iconCard"), tag: 0)
-        self.tabBarItem = tabBarItem
-        tabBarItem = UITabBarItem(title: "Аккаунт", image: UIImage(named: "union"), tag: 1)
+//        var tabBarItem = UITabBarItem()
+//        tabBarItem = UITabBarItem(title: "Главная", image: UIImage(named: "iconCard"), tag: 0)
+//        self.tabBarItem = tabBarItem
+//        tabBarItem = UITabBarItem(title: "Аккаунт", image: UIImage(named: "union"), tag: 1)
         
         
 

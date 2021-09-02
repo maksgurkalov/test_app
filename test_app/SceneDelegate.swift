@@ -18,26 +18,47 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
         window = UIWindow(frame: UIScreen.main.bounds)
         
-        let mainVC = ViewController()
+        guard let windowScene = (scene as? UIWindowScene) else { return }
+               window = UIWindow(frame: UIScreen.main.bounds)
+               let home = TabBar()
+               self.window?.rootViewController = home
+               window?.makeKeyAndVisible()
+               window?.windowScene = windowScene
         
-        let authVC = AuthorizationVC()
         
-        let accountVC = AccountVC()
         
-        let moreVC = MoreVC()
         
-        // navigation
-        let navMainVC = UINavigationController(rootViewController: mainVC)
-        let navAuthVC = UINavigationController(rootViewController: authVC)
-        let navAccountVC = UINavigationController(rootViewController: accountVC)
-        let navMoreVC = UINavigationController(rootViewController: moreVC)
         
-        let tabBarVC = UITabBarController()
-        tabBarVC.setViewControllers([navMainVC, navAccountVC, navMoreVC], animated: true)
         
-        self.window?.windowScene = windowScene
-        self.window?.rootViewController = tabBarVC
-        self.window?.makeKeyAndVisible()
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        //        let mainVC = ViewController()
+//
+//        let authVC = AuthorizationVC()
+//
+//        let accountVC = AccountVC()
+//
+//        let moreVC = MoreVC()
+//
+//        // navigation
+//        let navMainVC = UINavigationController(rootViewController: mainVC)
+//        let navAuthVC = UINavigationController(rootViewController: authVC)
+//        let navAccountVC = UINavigationController(rootViewController: accountVC)
+//        let navMoreVC = UINavigationController(rootViewController: moreVC)
+//
+//        let tabBarVC = UITabBarController()
+//        tabBarVC.setViewControllers([navMainVC, navAccountVC, navMoreVC], animated: true)
+//
+//        self.window?.windowScene = windowScene
+//        self.window?.rootViewController = tabBarVC
+//        self.window?.makeKeyAndVisible()
         
     }
 
