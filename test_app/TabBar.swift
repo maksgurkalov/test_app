@@ -1,8 +1,8 @@
 //
-//  TabBar.swift
+//  MoreVC.swift
 //  test_app
 //
-//  Created by Dinas on 02.09.2021.
+//  Created by maks on 01.09.2021.
 //
 
 import UIKit
@@ -15,21 +15,12 @@ class TabBar: UITabBarController {
         initialize()
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
+    
     func initialize() {
             viewControllers = [
-                createNavController(for: ViewController(), title: "Search", image: UIImage(named: "iconCard")!),
-                createNavController(for: AccountVC(), title: "Home", image: UIImage(named: "union")!),
-                createNavController(for: MoreVC(), title: "Profile", image: UIImage(named: "iconMore")!)
+                createNavController(for: ViewController(), title: "Главная", image: UIImage(named: "iconCard")!),
+                createNavController(for: AccountVC(), title: "Аккаунт", image: UIImage(named: "union")!),
+                createNavController(for: MoreVC(), title: "Еще", image: UIImage(named: "iconMore")!)
             ]
         }
      
